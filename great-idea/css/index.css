@@ -64,3 +64,204 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+  	/* margin-left: 55px;
+	margin-right: 55px; */
+	/* width: 1200px;
+	height: 400px;
+	display: flex;
+	justify-content: center; */
+}
+
+/* Nav */
+
+nav {
+	/* color:gray;
+	font-size: 20px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px;
+	margin-left: 30px; */
+	width: 950px;
+	height: 20px;
+	margin: 5px;
+	padding: 20px;
+	/*border: 1px solid black;		/* remove this in the end */
+	display: flex;
+	justify-content: space-evenly;
+}
+
+nav a {
+	color: gray;				/* Color not gray yet */
+	font-size: 15px;
+	text-decoration: none;			/* Undeline not gone yet */
+}
+
+.logo {
+	position: absolute;
+	top: 0px;
+	right: 100px;
+	padding: 10px;
+
+}
+
+/* Header */
+
+	/* Div Begin */
+
+.innov-box {
+	position: relative;
+	left: 100px;
+	display: inline-block;
+	width: 150px;
+	height: 90px;
+	margin: 80px;
+}
+		/* Section Begin */
+.innovation {
+	position: relative;
+	text-align: center;
+	font-size: 80px;
+}
+
+h1 {
+	width: 300px;
+} 
+	
+		/* Section End */
+
+		/* Section Begin */
+.get-started {
+	width: 150px;
+	margin: 0px 0px 0px 70px;
+
+}
+
+button {
+	color: black;
+	background-color: white;
+	/* display: inline-block; */
+	width: 150px;
+	/* margin-top: 20px; */
+	height: 21px;
+	margin: 20px;
+	display: flex;
+	justify-content: center;
+
+}
+
+		/* Section End */
+
+	/* Div End */
+
+	/* Div Begin */
+
+img1 {
+	display: inline-block;
+	width: 950px;
+}
+
+.circle {
+	width: 440px;
+	position: absolute;
+	top: 85px;
+	right: 100px;
+	padding: 10px;
+}
+
+	/* Div End */
+
+	/* Div Begin */
+
+.text1 {
+	display: flex;
+	width: 1200px;
+}
+		/* Section Begin */
+
+.text1 .features {
+	width: 530px;
+	margin: 1em;
+	display: flex;
+	flex-direction: column;
+}
+		/* Section End */
+
+		/* Section Begin */
+
+
+.text1 .about {
+	width: 530px;
+	margin: 1em;
+	display: flex;
+	flex-direction: column;
+}
+		/* Section End */
+
+/* Div End */
+
+/* Div Begin */
+
+.middle-img {
+	/*max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;*/
+	width: 1140px;
+	position: relative;
+	top: 10px;
+}
+	
+.text2 {
+	position: relative;
+	display: flex;
+	width: 1900px;
+	padding-top: 25px;
+}
+
+		/* Section Begin */
+
+.text2 .services {
+	width: 340px;
+	margin: 1em;
+	display: flex;
+	flex-direction: column;
+}
+
+		/* Section End */
+
+		/* Section Begin */
+
+.text2 .product {
+	width: 340px;
+	margin: 1em;
+	display: flex;
+	flex-direction: column;
+}
+
+		/* Section End */
+
+		/* Section Begin */
+
+.text2 .vision {
+	width: 340px;
+	margin: 1em;
+	display: flex;
+	flex-direction: column;
+}
+
+
+		/* Section End */
+.padding {
+	padding-top: 25px;
+}
+	/* Div End */
+
+/* Footer */
+
+footer .copyright {
+	padding-top: 40px;	
+	display: flex;
+	justify-content: center;
+}
