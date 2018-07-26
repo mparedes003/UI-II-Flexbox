@@ -265,3 +265,14 @@ footer .copyright {
 	display: flex;
 	justify-content: center;
 }
+
+	/* Services.html Styles */
+
+		/* Div Begin */
+
+.services-header-img {
+	width: 82%;
+	margin-top: 20px;
+	margin-left: 115px;
+}
+
