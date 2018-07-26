@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+
 /* Nav */
 
 nav {
@@ -157,8 +158,12 @@ img1 {
 	/* Div Begin */
 
 .text1 {
+	border-top: 1px solid black;
+	margin-top: 130px;
+	margin-left: 75px;
+	padding: 20px;
 	display: flex;
-	width: 1200px;
+	width: 1100px;
 }
 		/* Section Begin */
 
@@ -186,12 +191,14 @@ img1 {
 /* Div Begin */
 
 .middle-img {
-	width: 1140px;
+	margin-left: 75px;
+	width: 1100px;
 	position: relative;
 	top: 10px;
 }
 	
 .text2 {
+	margin-left: 75px;
 	position: relative;
 	display: flex;
 	width: 1900px;
@@ -232,6 +239,9 @@ img1 {
 
 		/* Section End */
 .padding {
+	border-top: 1px solid black;
+	margin-top: 50px;
+	margin-left: 75px;
 	padding-top: 25px;
 }
 	/* Div End */
